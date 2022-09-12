@@ -1,0 +1,35 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+        maven {
+            url "https://jitpack.io"
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+        maven {
+            url "https://jitpack.io"
+        }
+    }
+}
+rootProject.name = "hotdog"
+include ':app'
+include ':design'
+include ':feature_main'
+include ':feature_profile'
+include ':core'
+include ':feature_home'
+include ':feature_favourite'
+include ':feature_search'
+include ':feature_promo'

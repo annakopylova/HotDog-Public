@@ -1,0 +1,12 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'com.google.devtools.ksp' version '1.6.10-1.0.4' // Depends on your kotlin version
+}
+
+apply from: '../base.gradle'
+
+dependencies {
+    api("io.coil-kt:coil-compose:2.1.0")
+    api("io.coil-kt:coil-compose:2.1.0")
+}

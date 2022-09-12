@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="your_avatar">Ваш аватар</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="settings">Настройки</string>
+    <string name="help_and_feedback">Помощь</string>
+    <string name="about_hotdog">О нас</string>
+    <string name="invite_your_friends">Пригласить друзей</string>
+    <string name="log_out">Выйти</string>
+    <string name="subscription">Подписка</string>
+
+</resources>
